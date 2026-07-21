@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PAD Garage: detallado automotriz y limpieza profesional en Matehuala, San Luis Potosí.">
-  <title>PAD Garage | Detallado y limpieza profesional</title>
+  <meta name="description" content="PAD Garage: detallado automotriz, limpieza de tapicerías y servicios comerciales en Matehuala, San Luis Potosí.">
+  <meta name="theme-color" content="#080808">
+  <title>PAD Garage | Sitio Oficial</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,118 +13,147 @@
     <a class="brand" href="#inicio">PAD <span>GARAGE</span></a>
     <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
     <nav class="menu">
+      <a href="#inicio">Inicio</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#servicios">Servicios</a>
-      <a href="#catalogo">Catálogo</a>
+      <a href="#galeria">Galería</a>
+      <a href="#empresas">Empresas</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
   <main>
     <section id="inicio" class="hero">
-      <div class="hero-overlay"></div>
+      <div class="hero-shade"></div>
       <div class="hero-content reveal">
-        <p class="eyebrow">MATEHUALA, SAN LUIS POTOSÍ</p>
-        <h1>Detallado automotriz y limpieza profesional</h1>
-        <p>Cuidamos vehículos, tapicerías y espacios comerciales con procesos especializados.</p>
+        <p class="eyebrow">MATEHUALA · SAN LUIS POTOSÍ</p>
+        <h1>Detallado y limpieza profesional con atención en cada detalle</h1>
+        <p class="lead">Soluciones para vehículos, tapicerías, hogares, hoteles y empresas.</p>
         <div class="actions">
-          <a class="btn primary" href="#catalogo">Conocer servicios</a>
-          <a class="btn secondary" href="https://cogj74.github.io/PAD-Garage-Tarifas/" target="_blank" rel="noopener">Consultar tarifas</a>
+          <a class="btn primary" href="#servicios">Explorar servicios</a>
+          <a class="btn secondary" href="https://cogj74.github.io/PAD-Garage-Tarifas/" target="_blank" rel="noopener">Ver tarifas</a>
         </div>
       </div>
+      <a class="scroll-indicator" href="#nosotros" aria-label="Bajar a la siguiente sección">⌄</a>
     </section>
 
     <section id="nosotros" class="section split reveal">
       <div>
         <p class="eyebrow">QUIÉNES SOMOS</p>
-        <h2>Atención personalizada y cuidado en cada detalle</h2>
-        <p>En PAD Garage evaluamos cada superficie antes de trabajar y seleccionamos el proceso adecuado para obtener una limpieza profunda y una mejor presentación.</p>
-        <ul class="checks">
-          <li>Inspección previa</li>
-          <li>Equipos de extracción y vapor</li>
-          <li>Productos especializados</li>
-          <li>Servicio a particulares y empresas</li>
-        </ul>
+        <h2>Procesos profesionales, atención personalizada</h2>
+        <p>Evaluamos cada superficie antes de trabajar, seleccionamos el método adecuado y cuidamos cada etapa del servicio para obtener una mejor limpieza, presentación y comodidad.</p>
+        <div class="stats">
+          <div><strong>01</strong><span>Inspección previa</span></div>
+          <div><strong>02</strong><span>Proceso especializado</span></div>
+          <div><strong>03</strong><span>Revisión final</span></div>
+        </div>
       </div>
-      <img src="02-quienes-somos.png" alt="Quiénes somos en PAD Garage">
+      <img src="02-quienes-somos.png" alt="Quiénes somos en PAD Garage" loading="lazy">
     </section>
 
-    <section id="servicios" class="section reveal">
+    <section id="servicios" class="section dark-section reveal">
       <div class="section-heading">
         <p class="eyebrow">SERVICIOS</p>
-        <h2>Soluciones para vehículos, hogares y empresas</h2>
+        <h2>Soluciones para cada necesidad</h2>
       </div>
 
-      <div class="cards">
-        <article class="card">
-          <img src="03-car-detailing.png" alt="Car detailing PAD Garage">
-          <div class="card-body">
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="03-car-detailing.png" alt="Car detailing PAD Garage" loading="lazy">
+          <div class="overlay">
             <h3>Car detailing</h3>
-            <p>Limpieza, acondicionamiento y protección para mejorar la presentación del vehículo.</p>
+            <p>Limpieza y acondicionamiento interior y exterior.</p>
           </div>
         </article>
 
-        <article class="card">
-          <img src="04-servicios-detailing.png" alt="Servicios de detallado automotriz">
-          <div class="card-body">
+        <article class="service-card">
+          <img src="04-servicios-detailing.png" alt="Servicios de detallado automotriz" loading="lazy">
+          <div class="overlay">
             <h3>Procesos de detallado</h3>
-            <p>Atención especializada para interiores, exteriores y superficies delicadas.</p>
+            <p>Atención especializada para superficies delicadas.</p>
           </div>
         </article>
 
-        <article class="card">
-          <img src="05-limpieza-tapiceria.png" alt="Limpieza profesional de tapicerías">
-          <div class="card-body">
-            <h3>Limpieza de tapicerías</h3>
-            <p>Salas, colchones, sillas y textiles mediante extracción, cepillado y vapor.</p>
+        <article class="service-card">
+          <img src="05-limpieza-tapiceria.png" alt="Limpieza de tapicerías" loading="lazy">
+          <div class="overlay">
+            <h3>Tapicerías</h3>
+            <p>Salas, colchones, sillas y textiles.</p>
           </div>
         </article>
 
-        <article class="card">
-          <img src="06-servicios-comerciales.png" alt="Servicios comerciales PAD Garage">
-          <div class="card-body">
+        <article class="service-card">
+          <img src="06-servicios-comerciales.png" alt="Servicios comerciales PAD Garage" loading="lazy">
+          <div class="overlay">
             <h3>Servicios comerciales</h3>
-            <p>Atención para hoteles, oficinas, restaurantes y empresas con necesidades periódicas.</p>
+            <p>Atención para hoteles, oficinas y empresas.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="catalogo" class="section catalog-section reveal">
+    <section id="galeria" class="section reveal">
       <div class="section-heading">
-        <p class="eyebrow">CATÁLOGO DIGITAL</p>
-        <h2>Consulta la presentación completa de PAD Garage</h2>
-        <p>El catálogo reúne nuestros servicios, procesos, propuesta de valor y medios de contacto.</p>
+        <p class="eyebrow">GALERÍA</p>
+        <h2>Conoce nuestro trabajo y presentación</h2>
+        <p>Selecciona cualquier imagen para verla con mayor detalle.</p>
       </div>
-      <div class="catalog-preview">
-        <img src="01-portada.png" alt="Portada del catálogo digital PAD Garage">
-        <div>
-          <h3>Catálogo completo</h3>
-          <p>Explora las siete páginas de presentación con toda la información de nuestros servicios.</p>
-          <a class="btn primary" href="https://cogj74.github.io/PAD-Garage-Catalogo/" target="_blank" rel="noopener">Abrir catálogo</a>
-        </div>
+      <div class="gallery">
+        <button class="gallery-item" data-image="01-portada.png"><img src="01-portada.png" alt="Portada PAD Garage" loading="lazy"></button>
+        <button class="gallery-item" data-image="03-car-detailing.png"><img src="03-car-detailing.png" alt="Car detailing" loading="lazy"></button>
+        <button class="gallery-item" data-image="04-servicios-detailing.png"><img src="04-servicios-detailing.png" alt="Servicios de detailing" loading="lazy"></button>
+        <button class="gallery-item" data-image="05-limpieza-tapiceria.png"><img src="05-limpieza-tapiceria.png" alt="Limpieza de tapicería" loading="lazy"></button>
       </div>
     </section>
 
-    <section id="contacto" class="section contact-section reveal">
-      <div class="contact-copy">
-        <p class="eyebrow">CONTACTO</p>
-        <h2>Solicita información o una cotización</h2>
-        <p>Revisa la información de contacto incluida en nuestro catálogo y comunícate con PAD Garage.</p>
-        <div class="actions">
-          <a class="btn primary" href="https://cogj74.github.io/PAD-Garage-Catalogo/" target="_blank" rel="noopener">Ver contacto</a>
-          <a class="btn secondary" href="https://cogj74.github.io/PAD-Garage-Tarifas/" target="_blank" rel="noopener">Ver tarifas</a>
-        </div>
+    <section id="empresas" class="section business reveal">
+      <div class="business-content">
+        <p class="eyebrow">HOTELES Y EMPRESAS</p>
+        <h2>Programas de limpieza para espacios comerciales</h2>
+        <p>Atención para sillas, sillones, colchones, salas y áreas textiles con posibilidad de organizar servicios por volumen.</p>
+        <a class="btn primary" href="https://cogj74.github.io/PAD-Garage-Catalogo/" target="_blank" rel="noopener">Ver catálogo comercial</a>
       </div>
-      <img src="07-contacto.png" alt="Información de contacto PAD Garage">
+      <img src="06-servicios-comerciales.png" alt="Servicios comerciales para hoteles y empresas" loading="lazy">
+    </section>
+
+    <section class="section cta reveal">
+      <div>
+        <p class="eyebrow">INFORMACIÓN COMPLETA</p>
+        <h2>Catálogo y tarifas en un solo lugar</h2>
+      </div>
+      <div class="cta-links">
+        <a class="info-card" href="https://cogj74.github.io/PAD-Garage-Catalogo/" target="_blank" rel="noopener">
+          <span>Catálogo digital</span><strong>Explorar →</strong>
+        </a>
+        <a class="info-card" href="https://cogj74.github.io/PAD-Garage-Tarifas/" target="_blank" rel="noopener">
+          <span>Tarifas</span><strong>Consultar →</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact reveal">
+      <div>
+        <p class="eyebrow">CONTACTO</p>
+        <h2>Solicita información sobre el servicio que necesitas</h2>
+        <p>Consulta nuestros datos de contacto en la presentación oficial de PAD Garage.</p>
+        <a class="btn primary" href="https://cogj74.github.io/PAD-Garage-Catalogo/" target="_blank" rel="noopener">Abrir información de contacto</a>
+      </div>
+      <img src="07-contacto.png" alt="Contacto PAD Garage" loading="lazy">
     </section>
   </main>
 
   <footer>
-    <strong>PAD Garage</strong>
+    <a class="brand" href="#inicio">PAD <span>GARAGE</span></a>
     <p>Detallado automotriz y limpieza profesional.</p>
     <p class="small">Matehuala, San Luis Potosí.</p>
   </footer>
+
+  <button id="backTop" aria-label="Volver al inicio">↑</button>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Cerrar imagen">×</button>
+    <img src="" alt="Vista ampliada">
+  </div>
 
   <script src="script.js"></script>
 </body>

@@ -1,8 +1,20 @@
-# PAD Garage — Sitio principal con 7 imágenes
+# PAD Garage — Fase 2
 
-Esta versión incorpora las siete imágenes originales del catálogo.
+Versión mejorada del sitio principal.
 
-## Archivos que debes subir
+## Mejoras incorporadas
+- Portada de alto impacto
+- Menú adaptable a celular
+- Animaciones al desplazarse
+- Sección de servicios
+- Galería ampliable
+- Sección para hoteles y empresas
+- Enlaces al catálogo y las tarifas
+- Botón para regresar al inicio
+- Las siete imágenes originales
+
+## Cómo publicarla
+Sube estos archivos al repositorio `PAD-Garage`, reemplazando los anteriores:
 
 - index.html
 - styles.css
@@ -15,19 +27,4 @@ Esta versión incorpora las siete imágenes originales del catálogo.
 - 06-servicios-comerciales.png
 - 07-contacto.png
 
-## Repositorio recomendado
-
-Utiliza el repositorio existente:
-
-`Pad-Garage-Web`
-
-Sube todos los archivos a la raíz y reemplaza los anteriores.
-
-GitHub Pages debe permanecer configurado en:
-
-- Branch: main
-- Folder: /(root)
-
-URL del sitio principal:
-
-https://cogj74.github.io/Pad-Garage-Web/
+No necesitas modificar GitHub Pages si ya está configurado con `main` y `/(root)`.
