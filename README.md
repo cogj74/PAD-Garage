@@ -1,30 +1,20 @@
-# PAD Garage — Fase 2
+# PAD Garage — Rediseño total
 
-Versión mejorada del sitio principal.
+Esta versión cambia por completo la estructura visual del sitio:
 
-## Mejoras incorporadas
-- Portada de alto impacto
-- Menú adaptable a celular
-- Animaciones al desplazarse
-- Sección de servicios
-- Galería ampliable
-- Sección para hoteles y empresas
-- Enlaces al catálogo y las tarifas
-- Botón para regresar al inicio
-- Las siete imágenes originales
+- Navegación lateral en computadora.
+- Portada editorial dividida.
+- Servicios presentados como paneles visuales.
+- Método de trabajo en cuatro pasos.
+- Sección comercial independiente.
+- Catálogo mostrado como composición de páginas.
+- Diseño adaptable a celular.
 
-## Cómo publicarla
-Sube estos archivos al repositorio `PAD-Garage`, reemplazando los anteriores:
+## Publicación
 
-- index.html
-- styles.css
-- script.js
-- 01-portada.png
-- 02-quienes-somos.png
-- 03-car-detailing.png
-- 04-servicios-detailing.png
-- 05-limpieza-tapiceria.png
-- 06-servicios-comerciales.png
-- 07-contacto.png
+Sube todos los archivos al repositorio `PAD-Garage` y reemplaza los anteriores.
 
-No necesitas modificar GitHub Pages si ya está configurado con `main` y `/(root)`.
+No es necesario modificar GitHub Pages si ya está configurado en:
+
+- Branch: main
+- Folder: /(root)
